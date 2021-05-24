@@ -1,0 +1,686 @@
+ .container{
+     width: 85%;
+     margin: 0px auto;
+ }
+ .clearfix::after{
+     content: "";
+     display: block;
+     clear: both;
+ }
+ .motherdiv {
+    width: 100%;
+    background: none;
+}
+ .banner {
+    width: 100%;
+    background-image: url(./bannerBg.jpg);
+    background-size: cover;
+    /* background-position: center center; */
+}
+header {
+    width: 100%;
+    background: rgb(158 18 230 / 82%);
+    border-bottom: 1px solid white;
+}
+ .header{}
+ .header h5 {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    float: left;
+    line-height: 4.5;
+}
+.navSocial {
+    display: inline-block;
+    float: left;
+}
+.navSocial ul {
+    list-style: none;
+    display: inline-block;
+}
+.navSocial ul li {
+    display: inline-block;
+    line-height: 5;
+}
+ .navSocial ul li a {
+    text-decoration: none;
+}
+ .navSocial ul li a i {
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 3px;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    color: white;
+    line-height: 1;
+    margin: 5px;
+}
+ .navContact {
+    display: inline-block;
+    float: right;
+}
+.navContact ul {
+    list-style: none;
+    display: inline-block;
+}
+.navContact ul li {
+    display: inline-block;
+    line-height: 5;
+}
+ .navContact ul li a{
+     text-decoration: none;
+     color: white;
+ }
+ .navContact ul li a i {
+    color: white;
+    margin: 6px;
+}
+.Bannercontent {
+    text-align: center;
+    padding: 300px 0px;
+}
+.Bannercontent h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 85px;
+}
+.Bannercontent h5 {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.Bannercontent h5::before {
+    /* content: "----------------"; */
+    content: "";
+    background: white;
+    width: 100px;
+    height: 2px;
+    position: relative;
+    top: -7px;
+    left: -5px;
+    display: inline-block;
+}
+.Bannercontent h5::after {
+    /* content: "----------------"; */
+    content: "";
+    background: white;
+    width: 100px;
+    height: 2px;
+    position: relative;
+    top: -7px;
+    scroll-margin-right: -5px;
+    display: inline-block;
+}
+.Bannercontent button {
+    display: inline-block;
+    background: #BA8552;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Bannercontent button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 17px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.MenuMain {
+    background: #000000;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.manue {
+    width: 100%;
+}
+.menuLogo {
+    float: left;
+    margin-bottom: 0px;
+}
+.menuLogo h1 {
+    color: white;
+    font-size: 50px;
+    /* line-height: 2; */
+    margin-top: 9px;
+}
+.menuLogo h1 span {
+    color: #BA8552;
+}
+.navMenu {
+    float: right;
+}
+.navMenu ul {
+    list-style: none;
+    margin-bottom: 0px;
+}
+.navMenu ul li {
+    display: inline-block;
+}
+.navMenu ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    line-height: 5;
+    text-transform: uppercase;
+}
+.serviceSection {
+    width: 100%;
+    background: #05b9fdb0;
+    padding: 100px 0px;
+    text-align: center;
+}
+.serviceBox {
+    background: white;
+    width: 245px;
+    margin-right: 37px;
+    border: 1px solid #00000073;
+    /* box-sizing: border-box; */
+    padding: 23px;
+    transition: .6s;
+}
+.serviceBox:hover figure img{
+    transform: rotateY(360deg);
+    transition: .6s;
+}
+.serviceBox:hover{
+    box-shadow: 1px 1px 10px #000000d9;
+}
+.serviceBox:nth-child(4){
+    margin-right: 0;
+}
+.serviceBox figure{
+    
+        margin: 0 0 1rem;
+        /* width: 0px; */
+        text-align: center;
+    
+}
+.serviceBox figure img{
+    transition: .6s;
+}
+.serviceBox figure img:hover {
+    transform: rotateY(
+360deg
+);
+    transition: .6s;
+}
+.serviceBox h3 {
+    font-size: 21px;
+    color: #000000c4;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.serviceBox p {
+    color: #000000c4;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.serviceBox button {
+    border: none;
+    background: #BA8552;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: .7s;
+}
+.serviceBox button:hover{
+    background:black;
+    transition: .7s;
+}
+.serviceBox button a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    /* border-radius: 3px; */
+    /* border-radius: 10px; */
+}
+.cottage {
+    background: none;
+    width: 100%;
+    padding: 95px 0px;
+}
+.aboutcottage {
+    margin-top: 70px;
+}
+.aboutcottage h4 {
+    font-size: 35px;
+    color: #000000b8;
+    margin-bottom: 15px;
+}
+.aboutcottage h1 {
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.aboutcottage p {
+    color: #000000c4;
+    font-size: 16px;
+}
+.aboutcottage button {
+    border: none;
+    background: #C68C4F;
+    border-radius: 5px;
+    transition: .7s;
+    margin-top: 30px;
+}
+.aboutcottage button:hover{
+    background: #000;
+}
+.aboutcottage button a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 9px 12px;
+    display: inline-block;
+}
+.cottageImg {
+    background: none;
+    text-align: center;
+}
+.cottageImg figure{}
+.cottageImg figure img {
+    width: 100%;
+}
+.AboutWoodWorks {
+    width: 100%;
+    background: #e8d4bb38;
+    padding: 100px 0px;
+}
+.woodWorksImg {
+    text-align: left;
+}
+.woodWorksImg figure{}
+.woodWorksImg figure img {
+    width: 100%;
+}
+.WoodWorks {
+    text-align: left;
+}
+.wWorksContent {
+    width: 95%;
+    margin-left: 65px;
+}
+.WoodWorks h1 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 50px;
+}
+.WoodWorks h1 span {
+    color: #E8B46D;
+}
+.WoodWorks p {
+    font-size: 16px;
+    word-spacing: 6px;
+    font-weight: 500;
+    color: #000000a3;
+}
+.WoodWorks button {
+    border: none;
+    background: #E6B56E;
+    border-radius: 5px;
+    margin-top: 25px;
+    transition: .7s;
+}
+.WoodWorks button:hover{
+    background: #000000;
+}
+.WoodWorks button a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    display: inline-block;
+}
+.Projects {
+    width: 100%;
+    background-image: url(./projects-bg.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+.Procontent h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 80px;
+}
+.ProjBox {
+    width: 340px;
+    text-align: center;
+    background: rgb(0 0 0 / 71%);
+    padding: 50px 0px;
+    position: relative;
+    margin-right: 36px;
+    border: 1px solid transparent;
+    transition: .7s;
+}
+.ProjBox:hover{
+    border: 1px solid #CE7441; 
+}
+
+.col-md-4.ProjBox:nth-child(4) {
+    margin-right: 0px;
+}
+.ProjBox::after {
+    content: "";
+    background: #222222;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+}
+.PBoxElements{
+    width: 100%;
+    height: 100%;
+}
+.ProjBox figure img{}
+.ProjBox h1 {
+    font-size: 30px;
+    margin-bottom: -65px;
+    margin-top: 30px;
+}
+.ProjBox p {
+    color: #CA7342;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.ProjBox button {
+    background: #CE7441;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    transition: .7s;
+}
+.ProjBox button:hover{
+    background: #5c2a2aaf;
+    transition: .7s;
+}
+.ProjBox button a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    display: inline-block;
+}
+.portfolio {
+    background: rgb(0 0 0 / 50%);
+    width: 100%;
+    padding: 100px 0px;
+}
+.Pheader {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.Pheader h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    margin-bottom: 15px;
+}
+.Pheader p {
+    color: white;
+    margin: 15px;
+    font-size: 17px;
+    color: white;
+}
+.gallery {
+    text-align: center;
+}
+.G-Box{
+    box-sizing: border-box;
+}
+.G-img{
+    box-sizing: border-box;
+}
+.G-img img {
+    height: 410px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .6s;
+}
+.G-img img:hover{
+   transform: scale(1.2);
+   box-sizing: border-box;
+}
+.Blogs {
+    width: 100%;
+    background: #F8F8F8;
+    text-align: center;
+    padding: 100px 0px;
+}
+.B-header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.B-header h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.B-header p {
+    color: #000000ba;
+}
+.B-box {
+    width: 340px;
+    margin-right: 30px;
+}
+.col-md-4.B-box:nth-child(3) {
+    margin-right: 0px;
+}
+.B-box h2 {
+    text-align: left;
+    border-left: 5px solid #BB8C58;
+    padding-left: 10px;
+    margin-top: 23PX;
+    MARGIN-BOTTOM: 15PX;
+}
+.B-box p {
+    text-align: justify;
+    color: #000000ad;
+}
+.B-box figure img {
+    height: 250px;
+    width: 100%;
+    border: 6px solid white;
+    box-shadow: 1px 1px 9px black;
+}
+.consultation {
+    padding: 50px 0px;
+    /* text-align: center; */
+    width: 100%;
+    background-image: url(./contact-bg.jpg);
+    background-size: cover;
+}
+.C-content {
+    text-align: start;
+}
+.C-content h4 {
+    color: white;
+    font-size: 35px;
+}
+.C-content h1 {
+    color: white;
+    font-size: 50px;
+}
+.contactIfno{ 
+    text-align: right;
+}
+.contactIfno h2 {
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.contactIfno h2 i{
+    margin-right: 20px;
+}
+.formSec {
+    width: 100%;
+    background-image: url(./Form-bg-1.jpg);
+    background-size: 100% 100%;
+    padding: 100px 0px;
+}
+.Form {
+    text-align: start;
+}
+.Form h1 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.Form p {
+    color: #000000b3;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+.Form form {
+    
+    text-align: start;
+}
+.Form form input {
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #00000070;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.Form form textarea{
+    width: 100%;
+}
+.Form form button {
+    border: none;
+    background: #c5996a;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    margin-top: 15px;
+    transition: .7s;
+}
+.Form form button:hover{
+    background: rgba(0, 0, 0, 0.733);
+}
+.Footersec{
+    padding-top: 100px;
+    width: 100%;
+    background-image: url(./projects-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+.F-box {
+    /* width: 100%; */
+    width: 260px;
+    text-align: start;
+    margin-right: 17px;
+}
+.col-md-3.F-box:nth-child(4) {
+    margin-right: 0px;
+}
+.F-box h1 {
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    color: white;
+    font-size: 26px;
+    border-bottom: 4px solid #c59048;
+}
+.About-us p {
+    color: white;
+    text-align: justify;
+}
+.News {
+    text-align: start;
+}
+.News nav{}
+.News nav ul {
+    list-style: none;
+    margin-left: -28px;
+}
+.News nav ul li {
+    line-height: 2.5;
+    transition: .6s;
+}
+.News nav ul li:hover a{
+    color: #C59048;
+}
+.News nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: .6s;
+}
+.links{
+    text-align: start;
+}
+.links nav{}
+.links nav ul{
+    list-style: none;
+    margin-left: -28px;
+}
+.links nav ul li{
+    line-height: 2.5;
+    transition: .6s;
+}
+.links nav ul li:hover a{
+    color: #C59048;
+}
+.links nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: .6s;
+}
+.F-contact address{
+    color: white;
+}
+.F-contact p{
+    color: white;
+}
+.footerBottom {
+    margin-top: 15px;
+    border-top: 1px solid white;
+    padding: 30px 0px;
+}
+.copyright {
+    /* table-layout: unset; */
+    text-align: start;
+}
+.copyright p {
+    color: white;
+}
+.f-icons {
+    text-align: end;
+}
+.f-icons ul {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.f-icons ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.f-icons ul li:hover a i{
+    color: yellow;
+    transition: .6s;
+}
+.f-icons ul li a{
+    color: white;
+    text-decoration: none;
+    transition: .6s;
+}
+.f-icons ul li a i {
+    color: white;
+    font-size: 20px;
+    transition: .6s;
+}
